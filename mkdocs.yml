@@ -1,0 +1,68 @@
+site_name: A-Frame how to use
+theme:
+  language: en
+  features:
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - navigation.footer
+  logo: assets/logo.svg
+  font:
+    text: Inter
+    code: Roboto Mono
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+  
+  extra:
+    social:
+      - icon: fontawesome/brands/mastodon 
+        link: https://fosstodon.org/@squidfunk
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.snippets
+  - abbr
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+
+nav:
+  - 🏠 Home : index.md
+  - ✅ First scene : firstscene.md
+  - 🏞️ Images and 3D models : imagesand3dmodels.md
+  - 🏃🏻 Animation : animation.md
+  - 🌄 Materials : materials.md
+  - ✨ Lights : lights.md
+  - 🌈 Sky and environments : skyenvironment.md
