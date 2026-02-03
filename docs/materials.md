@@ -14,7 +14,7 @@ For example:
 
 ## Video texture
 
-Video as a texture of a place.
+Video as a texture of a plane.
 
 Work in progress...
 
